@@ -1,0 +1,28 @@
+{
+    "name": "graphqlcomments",
+    "displayName": "graphqlComments",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "graphql",
+            "aliases": ["graphql", "graphql"],
+            "extensions": [".graphql",".gql",".graphqls"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "graphql",
+            "scopeName": "",
+            "path": "./syntaxes/graphql.tmLanguage.json"
+        }]
+    },
+    "publisher": "segoto",
+    "repository": {"url": "https://github.com/segoto/graphqlExtension"},
+    "license": "ISC"
+}

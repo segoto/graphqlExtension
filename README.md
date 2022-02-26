@@ -1,0 +1,1 @@
+To comment multiple lines in graphql.
